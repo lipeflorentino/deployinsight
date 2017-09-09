@@ -1,0 +1,54 @@
+/*
+
+theme name: Insight
+Theme URI: http://www.insight.com.br
+Description: Tema desenvolvido pela IN Junior para a Insight
+
+Author: IN Junior
+Author URI: http://injunior.com.br
+Version: 1.0
+
+*/
+
+/*Declarações de fontes*/
+
+@font-face {   
+    font-family: "DroidSans";   
+    src: url("fonts/DroidSans.ttf"); 
+}
+
+@font-face {   
+    font-family: "DroidSans";   
+    src: url("fonts/DroidSans-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {   
+    font-family: "MavenProLight";   
+    src: url("fonts/MavenProLight-100.otf") ;
+    font-weight: 100;
+}
+
+@font-face {   
+    font-family: "MavenProLight";   
+    src: url("fonts/MavenProLight-200.otf");
+    font-weight: 200;
+}
+
+@font-face {   
+    font-family: "MavenProLight";   
+    src: url("fonts/MavenProLight-300.otf");
+    font-weight: 300;
+}
+
+
+
+/*Aqui fica o css geral*/
+
+
+
+/*Aqui fica o css do header*/
+
+
+
+/*Aqui fica o css do footer*/
