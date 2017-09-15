@@ -45,10 +45,68 @@ Version: 1.0
 
 /*Aqui fica o css geral*/
 
-
-
+html, body{width: 100%;height: 100%;font-family: Tahoma,Tahoma-face, Verdana, Segoe, sans-serif;}
+page-container{min-height: 100%;}
+.padding{padding:30px 8%;}
+.linha{clear:both;}
+.f-right{float: right}
+.f-left{float: left;}
+.bg-white{background-color: white;}
+.h-shadow{-webkit-box-shadow: 0 0 5px #696969;-moz-box-shadow:  0 0 5px #696969;box-shadow:  0 0 5px #696969;}
+.f-shadow{-webkit-box-shadow: 1px 3px 2px #888888;-moz-box-shadow:1px 3px 2px #888888;box-shadow: 1px 3px 2px #888888;}
 /*Aqui fica o css do header*/
 
+.navclass{position: fixed;width: 100%;height: 80px;background-color: #fff;z-index: 1000;padding:5px 20px;list-style: none;border-bottom: 1.5px solid #94bfac;}
+.nv-logo{float: left;width: 30%;}
+.nv-logo img{width: auto;height: 130px;position: absolute;top:-30px;left: 20%;}
+.nv-menu{float: right;width: 70%;padding:30px 0 10px 0;}
+.nv-menu ul li{list-style: none;display: inline-block;}
+.nv-menu ul li a{padding: 10px 8px;color: #777;font-size: 16px;text-decoration: none;transition: .3s;}
+.nv-menu ul li a:hover{color:#FBB91A;border-bottom: 1px dotted #FBB91A;transition: .3s;}
 
+/*Aqui fica o css da home*/
 
+/*Header*/
+.h-header{background-color: #008973;overflow: hidden;position: relative;text-align: center;width: 100%;height: 100%;padding-top:110px;}
+.gd-color{background-attachment: fixed,	fixed,	fixed;
+    background-image: url(images/overlay2.png), url(images/overlay3.svg), linear-gradient(45deg, #5bf1f1 5%, #34d8d2 30%, #008973);
+    background-position: top left,	center center,	center center;background-size: auto,	cover,	cover;/*background: -webkit-linear-gradient( 45deg, #CBE6DA, #94bfac, #008973, #229e8a);background: -moz-linear-gradient( 45deg, #CBE6DA, #94bfac, #008973, #229e8a);background: -o-linear-gradient( 45deg, #CBE6DA, #94bfac, #008973, #229e8a);background:  linear-gradient( 45deg, #CBE6DA, #94bfac, #008973, #229e8a);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#008973, endColorstr=#CBE6DA)";filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#008973, endColorstr=#CBE6DA);}*/
+}
+.hb-box{width: 50%;float:left;padding:6% 0;height: 100%;}
+.h-header-brand{padding: 0 6%;}
+.h-header-brand img{width: 100%;padding:12%;}
+.h-header-text{}
+.h-header-text h1{color:white;}
+.h-header-text h2{color:#f1f1f1;font-size: 15px;margin-bottom: 60px;line-height: 170%;font-weight: 1;}
+.form-button a{text-decoration: none;color:white;padding:10px 15px;background-color: #FBB91A;text-transform: uppercase;font-size: 22px;transition:0.2s;}
+.form-button a:hover{background-color: #FFD267;border:1px solid #FBB91A;transition:0.2s;padding:11px 16px;}
+
+/*section A*/
+#section-a{padding: 50px 0 150px 0;min-height: 100%;background-image: url(images/insighteando.JPG);background-size: cover;background-position: bottom center;}
+#section-a h2{color:#008973;text-align: center;padding: 10px 0;border-bottom: 1px solid #008973;width: 180px;margin: 0px auto;margin-bottom: 60px; }
+.sa-title h3{color:#008973;text-align: center;padding: 10px 0;margin:0;}
+.sa-box{background-color: white;min-height: 350px;width: 40%;border-radius: 4px;padding:5px 30px;margin:0 5%;}
+.sa-slider{width: 100%;overflow: hidden;}
+.sa-slide{position: absolute;display: none;z-index: 1;}
+.sa-slide p{text-align: center;font-size: 14px;}
+.item{margin-top: 20px;}
+.item p{text-align: center;}
+.carousel-control.right{background-image: none;background-color: transparent;color:#FBB91A;top:120px;right: -30px;}
+.carousel-control.left{background-image: none;background-color: transparent;color:#FBB91A;top:120px;left: -30px;}
+/*section B*/
+#section-b{padding:50px 0;}
+#section-b h2{color:#008973;text-align: center;padding: 10px 0;border-bottom: 1px solid #008973;width: 150px;margin: 0px auto;margin-bottom: 60px; }
+.sb-content{padding:50px 23%;}
+p.sb-text{font-size: 36px;text-shadow: 2px 2px #d6d6d6;text-align: center;}
+.sb-text strong{color:#00A69A;}
+/*section C*/
+#section-c{padding:50px 0;}
+.sc-content{background-color: white;width: 40%;height: 230px;margin:0 auto;border-radius: 4px;padding:10px 40px;}
+.sc-content p{font-size: 20px;margin-top: 20px;text-align: center;}
+#section-c > .form-button{text-align: center;margin-top: 40px;}
 /*Aqui fica o css do footer*/
+
+#yellow-margin{width:100%;background-color:#FBB91A;height:2px;margin-top:0px;margin-bottom: 5px;}
+.sociais{margin: 10px 0;}
+.sociais a:hover{text-decoration: none;color:#FBB91A;;}
+.f-social{padding:12px;color:white;font-size: 20px;}
